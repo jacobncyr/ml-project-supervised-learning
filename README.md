@@ -1,16 +1,26 @@
-# machine_learning_project-supervised-learning
+EDA and Preprocessing:
 
-## Project Outcomes
-- Supervised Learning: use supervised learning techniques to build a machine learning model that can predict whether a patient has diabetes or not, based on certain diagnostic measurements.The project involves three main parts: exploratory data analysis, preprocessing and feature engineering, and training a machine learning model. 
-### Duration:
-Approximately 3 hours and 20 minutes.
-### Project Description:
-In this projects, you will apply supervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
+Importing and cleaning the dataset
+Analyzing and visualizing variable relationships
+Handling missing values and outliers
+Performing feature engineering for enhanced predictive power
+Supervised Learning:
 
-The data set for this project is the "Diabetes" dataset from the National Institute of Diabetes and Digestive and Kidney Diseases 
-The project will involve the following tasks:
+Utilizing the Diabetes dataset for diabetes prediction
+Evaluating models using accuracy, precision, recall, F1-score, and ROC-AUC
+Comparing at least two models, including one ensemble model
+Findings:
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Supervised learning: We will use the Diabetes dataset to build a machine learning model that can predict whether a patient has diabetes or not, using appropriate evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC. We will select at least two models, including one ensemble model, and compare their performance.
+Handling missing values differs for discrete and continuous variables
+Logistic regression and random forest models sufficient for diabetes prediction
+Scaling data crucial for consistent testing and understanding variable relationships
+Successful prediction made for a new individual using developed models
+Potential for simulating predictions for groups of people by adding more rows
+Predictions:
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+Random Forest Classifier predicts the person is Diabetic
+Logistic Regression predicts the person is Diabetic
+Implications:
+
+Successful application of supervised learning for diabetes prediction
+Significance of machine learning models in the healthcare domain
